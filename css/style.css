@@ -56,6 +56,7 @@ header ul{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .container-title h1{
@@ -221,4 +222,16 @@ footer a{
 footer p{
     padding: 10px 0;
     margin-bottom: 10px;
+}
+
+.container-title:hover{
+    width: 40%;
+    height: 40%;
+    transition: ease 1s;
+    border-radius: 50%;
+}
+
+.logo:hover{
+    font-size: 30px;
+    transition: ease 1s;
 }
