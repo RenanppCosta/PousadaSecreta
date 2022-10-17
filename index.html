@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Pousada Secreta</title>
 </head>
 <body>
     <header>
-        <a href="index.html">Pousada <span>Secreta</span></a>
+        <a class="logo" href="index.html">Pousada <span>Secreta</span></a>
         <ul>
-            <li><a href="">SOBRE</a></li>
-            <li><a href="">ROTAS</a></li>
+            <li><a href="#about">SOBRE</a></li>
+            <li><a href="#routes">ROTAS</a></li>
             <li><a href="">QUARTOS</a></li>
         </ul>
 
@@ -43,33 +43,41 @@
                 </div>
             </div>
         </section>
-        <section class="routes">
-            <h2>ROTAS</h2>
+        <section id="routes">
+            <h2>ROTA</h2>
             <p>Veja como chegar até a pousada.</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d41624.15402592902!2d-41.90598379371566!3d-22.762033736005336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbuzios%20praias!5e0!3m2!1spt-BR!2sbr!4v1665858509361!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <section class="about">
+        <section id="about">
             <h2>SOBRE A POUSADA!</h2>
             <p>Conheça um pouco sobre a nossa pousda.</p>
-            <div>
-                <div>
+            <div class="container-about">
+                <div class="card-about">
+                    <div>
                     <h3>A Pousada</h3>
                     <p>A Pousada Dev dispõe de estacionamento privativo gratuito, piscina ao ar livre e bar.</p>
+                    </div>
                     <img src="/assets/img1.jpg" alt="A pousada">
                 </div>
-                <div>
-                    <h3>Alimentação</h3>
-                    <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos Restaurantes funcionam 24hrs.</p>
-                    <img src="/assets/img2.jpg" alt="Alimentação">
-                </div>
-                <div>
+                <div class="card-about">
+                    <div>
                     <h3>Nossos Quartos</h3>
                     <p>Os quartos possuem TV de tela plana a cabo, cozinha compacta e área das refeições. Além disso as unidades da Pousada Dev, contam com ar-condicionado e guarda-roupa.</p>
-                    <img src="/assets/img3.jpg" alt="Nossos Quartos">
+                    </div>
+                    <img src="/assets/img2.jpg" alt="Nossos Quartos">
                 </div>
-                <div>
+                <div class="card-about">
+                    <div>
+                    <h3>Alimentação</h3>
+                    <p>A pousada serve café da manhã em estilo continental ou buffet. Nossos Restaurantes funcionam 24hrs.</p>
+                    </div>
+                    <img src="/assets/img3.jpg" alt="Alimentação">
+                </div>
+                <div class="card-about">
+                    <div>
                     <h3>Recepção</h3>
                     <p>Nossa recepção fica aberta 24hrs.</p>
+                    </div>
                     <img src="/assets/img5.jpg" alt="Recepção">
                 </div>
             </div>
